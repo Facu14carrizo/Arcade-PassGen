@@ -1,8 +1,6 @@
 # 🕹️ Arcade PassGen — Generador de Contraseñas Retro 8-Bit
 
-![Arcade PassGen Banner](./screenshots/main-interface.png)
-
-> Un generador de contraseñas potente, seguro y divertido con estética arcade de los 80, efectos de sonido chiptune (Web Audio API) y un elemento 3D interactivo impulsado por Three.js / React Three Fiber.
+> Generador de contraseñas potente, seguro y divertido con estética arcade de los 80, efectos de sonido chiptune (Web Audio API) y elementos 3D interactivos impulsado por Three.js / React Three Fiber.
 
 ---
 
@@ -23,7 +21,7 @@
 
 ## 🖼️ Capturas de Pantalla
 
-### 1. Interfaz Principal & Modo Amigable
+### 1. Interfaz Principal
 ![Interfaz Principal](./screenshots/main-interface.png)
 
 ### 2. Modo Custom & Opciones Personalizadas
@@ -44,60 +42,6 @@
 
 ---
 
-## 🚀 Instalación y Uso Local
-
-Sigue estos pasos para ejecutar el proyecto en tu máquina local:
-
-### Requisitos Previos
-- [Node.js](https://nodejs.org/) (Versión 18 o superior recomendada)
-- `npm` o `yarn`
-
-### Pasos
-
-1. **Clonar o navegar al repositorio:**
-   ```bash
-   git clone https://github.com/tu-usuario/arcade-password-generator.git
-   cd arcade-password-generator
-   ```
-
-2. **Instalar dependencias:**
-   ```bash
-   npm install
-   ```
-
-3. **Iniciar servidor de desarrollo:**
-   ```bash
-   npm run dev
-   ```
-   Abre [http://localhost:5173/](http://localhost:5173/) en tu navegador para ver la aplicación en funcionamiento.
-
-4. **Compilar para Producción:**
-   ```bash
-   npm run build
-   ```
-
----
-
-## 📂 Estructura del Proyecto
-
-```text
-arcade-password-generator/
-├── public/
-│   └── 3D/             # Modelos 3D y assets estáticos
-├── screenshots/        # Capturas de pantalla para la documentación
-├── src/
-│   ├── components/
-│   │   └── RotatingLogo3D.jsx # Componente Three.js 3D
-│   ├── App.jsx         # Lógica principal del generador y UI
-│   ├── index.css       # Estilos globales y utilidades neón
-│   └── main.jsx        # Punto de entrada de React
-├── package.json
-├── tailwind.config.js
-└── vite.config.js
-```
-
----
-
 ## 👨‍💻 Créditos
 
-Desarrollado con ❤️ por **Waveframe Studio**.
+Desarrollado por **Waveframe Studio**.
